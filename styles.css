@@ -1,0 +1,94 @@
+#cabecera {
+        color: #46484c
+}
+
+#promocional {
+    color: #8b8b8bcc
+}
+
+#texto_boton {
+    color: #fff;
+    background-color: #025157;
+}
+
+body {
+    background-color: #fffbf7;
+}
+
+.header > * {
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: middle;
+    /*height: 100%; */
+
+  }
+
+.header {
+    margin: 40px 20px 20px;
+    font-size: 0;
+    height: 45px;
+    font-family: sans-serif;
+
+}
+
+.navbar li {
+  display: inline;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.navbar {
+    text-align: center;
+    width: 70%;
+
+}
+
+.navbar a {
+    font-weight: 500;
+    text-decoration: none;
+    color: #025157;
+
+}
+
+.actions {
+    text-align: right;
+    width: 20%;
+    font-weight: 600;
+    font-size: 14px;
+
+}
+
+.actions > * {
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.actions a {
+    color: #67b54b;
+
+}
+
+a:hover {
+    background-color: yellow;
+  }
+
+.actions button {
+    color: #fff;
+    background-color: #67b54b;
+    border: none;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 5px;
+
+}
+
+.logo {
+    width: 10%;
+}
+
+.logo > img {
+    height: 100%;
+  }
